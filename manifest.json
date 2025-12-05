@@ -1,0 +1,24 @@
+{
+  "short_name": "Emergencias",
+  "name": "Global Emergency Contacts",
+  "description": "Un directorio completo de números de contacto de emergencia para 195 países.",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f8fafc",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#2563eb"
+}

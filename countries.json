@@ -1,0 +1,1368 @@
+
+[
+    {
+        "name": "Albania", "code": "AL", "flag": "🇦🇱", "region": "Europa",
+        "contacts": {
+            "emergency": "129", "police": "129", "ambulance": "127", "fire": "128",
+            "embassy_us": "+355 4 2247285"
+        }
+    },
+    {
+        "name": "Alemania", "code": "DE", "flag": "🇩🇪", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "110", "ambulance": "112", "fire": "112",
+            "embassy_es": "+49 30 254 007 0", "embassy_us": "+49 30 8305 0"
+        }
+    },
+    {
+        "name": "Andorra", "code": "AD", "flag": "🇦🇩", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "110", "ambulance": "116", "fire": "118",
+            "embassy_es": "+376 800 020"
+        }
+    },
+    {
+        "name": "Austria", "code": "AT", "flag": "🇦🇹", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "133", "ambulance": "144", "fire": "122",
+            "embassy_es": "+43 1 505 57 88"
+        }
+    },
+    {
+        "name": "Bélgica", "code": "BE", "flag": "🇧🇪", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "101", "ambulance": "100", "fire": "100",
+            "embassy_es": "+32 2 230 03 40"
+        }
+    },
+    {
+        "name": "Bielorrusia", "code": "BY", "flag": "🇧🇾", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+375 17 306 2070"
+        }
+    },
+    {
+        "name": "Bosnia y Herzegovina", "code": "BA", "flag": "🇧🇦", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "122", "ambulance": "124", "fire": "123",
+            "embassy_es": "+387 33 215 550"
+        }
+    },
+    {
+        "name": "Bulgaria", "code": "BG", "flag": "🇧🇬", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "166", "ambulance": "150", "fire": "160",
+            "embassy_es": "+359 2 939 0660"
+        }
+    },
+    {
+        "name": "Chipre", "code": "CY", "flag": "🇨🇾", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "199", "ambulance": "199", "fire": "199",
+            "embassy_es": "+357 22 45 90 10"
+        }
+    },
+    {
+        "name": "Croacia", "code": "HR", "flag": "🇭🇷", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "192", "ambulance": "194", "fire": "193",
+            "embassy_es": "+385 1 4877 450"
+        }
+    },
+    {
+        "name": "Dinamarca", "code": "DK", "flag": "🇩🇰", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "114", "ambulance": "112", "fire": "112",
+            "embassy_es": "+45 33 18 27 15"
+        }
+    },
+    {
+        "name": "Eslovaquia", "code": "SK", "flag": "🇸🇰", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "158", "ambulance": "155", "fire": "150",
+            "embassy_es": "+421 2 5980 1701"
+        }
+    },
+    {
+        "name": "Eslovenia", "code": "SI", "flag": "🇸🇮", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "113", "ambulance": "112", "fire": "112",
+            "embassy_es": "+386 1 425 2980"
+        }
+    },
+    {
+        "name": "España", "code": "ES", "flag": "🇪🇸", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "091", "civil_guard": "062", "ambulance": "061", "fire": "080",
+            "embassy_us": "+34 91 587 2200", "embassy_uk": "+34 917 146 300"
+        }
+    },
+    {
+        "name": "Estonia", "code": "EE", "flag": "🇪🇪", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "110", "ambulance": "112", "fire": "112",
+            "embassy_es": "+372 631 1540"
+        }
+    },
+    {
+        "name": "Finlandia", "code": "FI", "flag": "🇫🇮", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "10022", "ambulance": "112", "fire": "112",
+            "embassy_es": "+358 9 687 7350"
+        }
+    },
+    {
+        "name": "Francia", "code": "FR", "flag": "🇫🇷", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_es": "+33 1 44 43 18 00", "embassy_us": "+33 1 43 12 22 22"
+        }
+    },
+    {
+        "name": "Georgia", "code": "GE", "flag": "🇬🇪", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "022", "ambulance": "112", "fire": "112",
+            "embassy_es": "+995 32 299 73 71"
+        }
+    },
+    {
+        "name": "Grecia", "code": "GR", "flag": "🇬🇷", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "100", "ambulance": "166", "fire": "199",
+            "embassy_es": "+30 210 721 4885", "tourist_police": "171"
+        }
+    },
+    {
+        "name": "Hungría", "code": "HU", "flag": "🇭🇺", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "107", "ambulance": "104", "fire": "105",
+            "embassy_es": "+36 1 202 4006"
+        }
+    },
+    {
+        "name": "Irlanda", "code": "IE", "flag": "🇮🇪", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "emergency_alt": "999", "police": "999", "ambulance": "999", "fire": "999",
+            "embassy_es": "+353 1 269 1640"
+        }
+    },
+    {
+        "name": "Islandia", "code": "IS", "flag": "🇮🇸", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "112", "fire": "112",
+            "embassy_es": "+354 520 7200"
+        }
+    },
+    {
+        "name": "Italia", "code": "IT", "flag": "🇮🇹", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "113", "ambulance": "118", "fire": "115",
+            "embassy_es": "+39 06 684 0401", "carabinieri": "112"
+        }
+    },
+    {
+        "name": "Letonia", "code": "LV", "flag": "🇱🇻", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "110", "ambulance": "113", "fire": "111",
+            "embassy_es": "+371 67 336 050"
+        }
+    },
+    {
+        "name": "Liechtenstein", "code": "LI", "flag": "🇱🇮", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "117", "ambulance": "144", "fire": "118",
+            "embassy_ch": "+423 236 68 70"
+        }
+    },
+    {
+        "name": "Lituania", "code": "LT", "flag": "🇱🇹", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+370 5 213 0760"
+        }
+    },
+    {
+        "name": "Luxemburgo", "code": "LU", "flag": "🇱🇺", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "113", "ambulance": "112", "fire": "112",
+            "embassy_es": "+352 46 61 80"
+        }
+    },
+    {
+        "name": "Macedonia del Norte", "code": "MK", "flag": "🇲🇰", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "192", "ambulance": "194", "fire": "193",
+            "embassy_es": "+389 2 3213 430"
+        }
+    },
+    {
+        "name": "Malta", "code": "MT", "flag": "🇲🇹", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "112", "fire": "112",
+            "embassy_es": "+356 2124 3174"
+        }
+    },
+    {
+        "name": "Moldavia", "code": "MD", "flag": "🇲🇩", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "902", "ambulance": "903", "fire": "901",
+            "embassy_es": "+373 22 285 471"
+        }
+    },
+    {
+        "name": "Mónaco", "code": "MC", "flag": "🇲🇨", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_fr": "+33 1 42 24 04 64"
+        }
+    },
+    {
+        "name": "Montenegro", "code": "ME", "flag": "🇲🇪", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "122", "ambulance": "124", "fire": "123",
+            "embassy_es": "+382 20 655 348"
+        }
+    },
+    {
+        "name": "Noruega", "code": "NO", "flag": "🇳🇴", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "113", "fire": "110",
+            "embassy_es": "+47 22 92 60 90"
+        }
+    },
+    {
+        "name": "Países Bajos", "code": "NL", "flag": "🇳🇱", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "0900-8844", "ambulance": "112", "fire": "112",
+            "embassy_es": "+31 70 302 4999"
+        }
+    },
+    {
+        "name": "Polonia", "code": "PL", "flag": "🇵🇱", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "997", "ambulance": "999", "fire": "998",
+            "embassy_es": "+48 22 622 4250"
+        }
+    },
+    {
+        "name": "Portugal", "code": "PT", "flag": "🇵🇹", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "112", "fire": "112",
+            "embassy_es": "+351 21 347 2381"
+        }
+    },
+    {
+        "name": "Reino Unido", "code": "GB", "flag": "🇬🇧", "region": "Europa",
+        "contacts": {
+            "emergency": "999", "emergency_alt": "112", "police_non_emergency": "101", "health_service": "111",
+            "embassy_es": "+44 20 7589 8989"
+        }
+    },
+    {
+        "name": "República Checa", "code": "CZ", "flag": "🇨🇿", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "158", "ambulance": "155", "fire": "150",
+            "embassy_es": "+420 233 097 211"
+        }
+    },
+    {
+        "name": "Rumanía", "code": "RO", "flag": "🇷🇴", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "955", "ambulance": "961", "fire": "981",
+            "embassy_es": "+40 21 318 1035"
+        }
+    },
+    {
+        "name": "Rusia", "code": "RU", "flag": "🇷🇺", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+7 495 916 5400"
+        }
+    },
+    {
+        "name": "San Marino", "code": "SM", "flag": "🇸🇲", "region": "Europa",
+        "contacts": {
+            "emergency": "113", "police": "112", "ambulance": "118", "fire": "115",
+            "embassy_it": "+378 0549 882914"
+        }
+    },
+    {
+        "name": "Serbia", "code": "RS", "flag": "🇷🇸", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "192", "ambulance": "194", "fire": "193",
+            "embassy_es": "+381 11 344 1220"
+        }
+    },
+    {
+        "name": "Suecia", "code": "SE", "flag": "🇸🇪", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "114 14", "ambulance": "112", "fire": "112",
+            "embassy_es": "+46 8 670 20 00"
+        }
+    },
+    {
+        "name": "Suiza", "code": "CH", "flag": "🇨🇭", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "117", "ambulance": "144", "fire": "118",
+            "embassy_es": "+41 31 350 52 52"
+        }
+    },
+    {
+        "name": "Ucrania", "code": "UA", "flag": "🇺🇦", "region": "Europa",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+380 44 238 9001"
+        }
+    },
+    {
+        "name": "Ciudad del Vaticano", "code": "VA", "flag": "🇻🇦", "region": "Europa",
+        "contacts": {
+            "emergency": "113", "police": "112", "ambulance": "118", "fire": "115",
+            "info": "+39 06 6982"
+        }
+    },
+    {
+        "name": "Afganistán", "code": "AF", "flag": "🇦🇱", "region": "Asia",
+        "contacts": {
+            "emergency": "119", "police": "100", "ambulance": "102", "fire": "101",
+            "embassy_us": "+93 700 108 001"
+        }
+    },
+    {
+        "name": "Arabia Saudí", "code": "SA", "flag": "🇸🇦", "region": "Asia",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "997", "fire": "998",
+            "embassy_es": "+966 11 419 2200"
+        }
+    },
+    {
+        "name": "Armenia", "code": "AM", "flag": "🇦🇲", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+374 10 544 001"
+        }
+    },
+    {
+        "name": "Azerbaiyán", "code": "AZ", "flag": "🇦🇿", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+994 12 465 2101"
+        }
+    },
+    {
+        "name": "Bangladés", "code": "BD", "flag": "🇧🇩", "region": "Asia",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "199", "fire": "199",
+            "embassy_es": "+880 2 8833091"
+        }
+    },
+    {
+        "name": "Baréin", "code": "BH", "flag": "🇧🇭", "region": "Asia",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "999", "fire": "999",
+            "embassy_es": "+973 17 728 888"
+        }
+    },
+    {
+        "name": "Birmania (Myanmar)", "code": "MM", "flag": "🇲🇲", "region": "Asia",
+        "contacts": {
+            "emergency": "199", "police": "199", "ambulance": "192", "fire": "191",
+            "embassy_us": "+95 1 536 509"
+        }
+    },
+    {
+        "name": "Brunéi", "code": "BN", "flag": "🇧🇳", "region": "Asia",
+        "contacts": {
+            "emergency": "991", "police": "993", "ambulance": "991", "fire": "995",
+            "embassy_uk": "+673 222 0043"
+        }
+    },
+    {
+        "name": "Bután", "code": "BT", "flag": "🇧🇹", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "113", "ambulance": "112", "fire": "110",
+            "embassy_in": "+975 2 322 162"
+        }
+    },
+    {
+        "name": "Camboya", "code": "KH", "flag": "🇰🇭", "region": "Asia",
+        "contacts": {
+            "emergency": "119", "police": "117", "ambulance": "119", "fire": "118",
+            "embassy_us": "+855 23 728 000"
+        }
+    },
+    {
+        "name": "Catar", "code": "QA", "flag": "🇶🇦", "region": "Asia",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "999", "fire": "999",
+            "embassy_es": "+974 4484 1212"
+        }
+    },
+    {
+        "name": "China", "code": "CN", "flag": "🇨🇳", "region": "Asia",
+        "contacts": {
+            "emergency": "120", "police": "110", "ambulance": "120", "fire": "119",
+            "embassy_es": "+86 10 6532 3629", "traffic": "122"
+        }
+    },
+    {
+        "name": "Corea del Norte", "code": "KP", "flag": "🇰🇵", "region": "Asia",
+        "contacts": {
+            "emergency": "119", "police": "112", "ambulance": "119", "fire": "119",
+            "embassy_cn": "+850 2 381 3116"
+        }
+    },
+    {
+        "name": "Corea del Sur", "code": "KR", "flag": "🇰🇷", "region": "Asia",
+        "contacts": {
+            "emergency": "119", "police": "112", "ambulance": "119", "fire": "119",
+            "embassy_es": "+82 2 794 3581", "tourist_hotline": "1330"
+        }
+    },
+    {
+        "name": "Emiratos Árabes Unidos", "code": "AE", "flag": "🇦🇪", "region": "Asia",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "998", "fire": "997",
+            "embassy_es": "+971 4 343 8670"
+        }
+    },
+    {
+        "name": "Filipinas", "code": "PH", "flag": "🇵🇭", "region": "Asia",
+        "contacts": {
+            "emergency": "911", "police": "117", "ambulance": "911", "fire": "116",
+            "embassy_es": "+63 2 8526 8950"
+        }
+    },
+    {
+        "name": "India", "code": "IN", "flag": "🇮🇳", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "100", "ambulance": "102", "fire": "101",
+            "embassy_es": "+91 11 4129 3000", "women_helpline": "1091"
+        }
+    },
+    {
+        "name": "Indonesia", "code": "ID", "flag": "🇮🇩", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "110", "ambulance": "118", "fire": "113",
+            "embassy_es": "+62 21 314 2355"
+        }
+    },
+    {
+        "name": "Irak", "code": "IQ", "flag": "🇮🇶", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "104", "ambulance": "122", "fire": "115",
+            "embassy_us": "+964 770 443 0101"
+        }
+    },
+    {
+        "name": "Irán", "code": "IR", "flag": "🇮🇷", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "110", "ambulance": "115", "fire": "125",
+            "embassy_es": "+98 21 2280 0511"
+        }
+    },
+    {
+        "name": "Israel", "code": "IL", "flag": "🇮🇱", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "100", "ambulance": "101", "fire": "102",
+            "embassy_es": "+972 3 696 4500"
+        }
+    },
+    {
+        "name": "Japón", "code": "JP", "flag": "🇯🇵", "region": "Asia",
+        "contacts": {
+            "emergency": "119", "police": "110", "ambulance": "119", "fire": "119",
+            "embassy_es": "+81 3 3583 8531", "coast_guard": "118", "tourist_info": "0570-00-2911"
+        }
+    },
+    {
+        "name": "Jordania", "code": "JO", "flag": "🇯🇴", "region": "Asia",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+962 6 461 2170", "tourist_police": "126"
+        }
+    },
+    {
+        "name": "Kazajistán", "code": "KZ", "flag": "🇰🇿", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+7 727 262 9870"
+        }
+    },
+    {
+        "name": "Kirguistán", "code": "KG", "flag": "🇰🇬", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+996 312 666 989"
+        }
+    },
+    {
+        "name": "Kuwait", "code": "KW", "flag": "🇰🇼", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "777", "fire": "777",
+            "embassy_es": "+965 2256 0915"
+        }
+    },
+    {
+        "name": "Laos", "code": "LA", "flag": "🇱🇦", "region": "Asia",
+        "contacts": {
+            "emergency": "1190", "police": "191", "ambulance": "195", "fire": "190",
+            "embassy_th": "+856 21 414 582"
+        }
+    },
+    {
+        "name": "Líbano", "code": "LB", "flag": "🇱🇧", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "140", "fire": "175",
+            "embassy_es": "+961 1 204 081"
+        }
+    },
+    {
+        "name": "Malasia", "code": "MY", "flag": "🇲🇾", "region": "Asia",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "999", "fire": "994",
+            "embassy_es": "+60 3 2148 0226", "tourist_police": "+60 3 2149 6593"
+        }
+    },
+    {
+        "name": "Maldivas", "code": "MV", "flag": "🇲🇻", "region": "Asia",
+        "contacts": {
+            "emergency": "119", "police": "119", "ambulance": "102", "fire": "118",
+            "embassy_in": "+960 330 0737"
+        }
+    },
+    {
+        "name": "Mongolia", "code": "MN", "flag": "🇲🇳", "region": "Asia",
+        "contacts": {
+            "emergency": "105", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_cn": "+976 11 320 955"
+        }
+    },
+    {
+        "name": "Nepal", "code": "NP", "flag": "🇳🇵", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "100", "ambulance": "102", "fire": "101",
+            "embassy_in": "+977 1 441 0900"
+        }
+    },
+    {
+        "name": "Omán", "code": "OM", "flag": "🇴🇲", "region": "Asia",
+        "contacts": {
+            "emergency": "9999", "police": "9999", "ambulance": "9999", "fire": "9999",
+            "embassy_es": "+968 2460 2213"
+        }
+    },
+    {
+        "name": "Pakistán", "code": "PK", "flag": "🇵🇰", "region": "Asia",
+        "contacts": {
+            "emergency": "15", "police": "15", "ambulance": "115", "fire": "16",
+            "embassy_es": "+92 51 2601274"
+        }
+    },
+    {
+        "name": "Palestina", "code": "PS", "flag": "🇵🇸", "region": "Asia",
+        "contacts": {
+            "emergency": "100", "police": "100", "ambulance": "101", "fire": "102",
+            "embassy_es": "+972 2 532 1530"
+        }
+    },
+    {
+        "name": "Singapur", "code": "SG", "flag": "🇸🇬", "region": "Asia",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "995", "fire": "995",
+            "embassy_es": "+65 6732 9068"
+        }
+    },
+    {
+        "name": "Siria", "code": "SY", "flag": "🇸🇾", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "110", "fire": "113",
+            "embassy_es": "+963 11 333 5800"
+        }
+    },
+    {
+        "name": "Sri Lanka", "code": "LK", "flag": "🇱🇰", "region": "Asia",
+        "contacts": {
+            "emergency": "119", "police": "119", "ambulance": "110", "fire": "111",
+            "embassy_in": "+94 11 2327 587", "tourist_police": "1912"
+        }
+    },
+    {
+        "name": "Tailandia", "code": "TH", "flag": "🇹🇭", "region": "Asia",
+        "contacts": {
+            "emergency": "191", "police": "191", "ambulance": "1669", "fire": "199",
+            "embassy_es": "+66 2 661 8284", "tourist_police": "1155"
+        }
+    },
+    {
+        "name": "Tayikistán", "code": "TJ", "flag": "🇹🇯", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_ru": "+992 37 221 5862"
+        }
+    },
+    {
+        "name": "Timor Oriental", "code": "TL", "flag": "🇹🇱", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "7231 2000", "ambulance": "110", "fire": "115",
+            "embassy_au": "+670 332 211"
+        }
+    },
+    {
+        "name": "Turkmenistán", "code": "TM", "flag": "🇹🇲", "region": "Asia",
+        "contacts": {
+            "emergency": "03", "police": "02", "ambulance": "03", "fire": "01",
+            "embassy_tr": "+993 12 363 462"
+        }
+    },
+    {
+        "name": "Turquía", "code": "TR", "flag": "🇹🇷", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "155", "ambulance": "112", "fire": "110",
+            "embassy_es": "+90 312 438 0392", "tourist_police": "527 4503"
+        }
+    },
+    {
+        "name": "Uzbekistán", "code": "UZ", "flag": "🇺🇿", "region": "Asia",
+        "contacts": {
+            "emergency": "112", "police": "102", "ambulance": "103", "fire": "101",
+            "embassy_es": "+998 71 238 4658"
+        }
+    },
+    {
+        "name": "Vietnam", "code": "VN", "flag": "🇻🇳", "region": "Asia",
+        "contacts": {
+            "emergency": "113", "police": "113", "ambulance": "115", "fire": "114",
+            "embassy_es": "+84 4 3718 0220"
+        }
+    },
+    {
+        "name": "Yemen", "code": "YE", "flag": "🇾🇪", "region": "Asia",
+        "contacts": {
+            "emergency": "191", "police": "194", "ambulance": "191", "fire": "191",
+            "embassy_sa": "+967 1 308 000"
+        }
+    },
+    {
+        "name": "Antigua y Barbuda", "code": "AG", "flag": "🇦🇬", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_us": "+1 268 463 6531"
+        }
+    },
+    {
+        "name": "Bahamas", "code": "BS", "flag": "🇧🇸", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_us": "+1 242 322 1181"
+        }
+    },
+    {
+        "name": "Barbados", "code": "BB", "flag": "🇧🇧", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "211", "ambulance": "511", "fire": "311",
+            "embassy_us": "+1 246 227 4000"
+        }
+    },
+    {
+        "name": "Belice", "code": "BZ", "flag": "🇧🇿", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "90", "fire": "90",
+            "embassy_us": "+501 822 4011"
+        }
+    },
+    {
+        "name": "Canadá", "code": "CA", "flag": "🇨🇦", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+1 613 747 2252", "non_emergency": "311"
+        }
+    },
+    {
+        "name": "Costa Rica", "code": "CR", "flag": "🇨🇷", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+506 2296 1515"
+        }
+    },
+    {
+        "name": "Cuba", "code": "CU", "flag": "🇨🇺", "region": "América del Norte",
+        "contacts": {
+            "emergency": "106", "police": "106", "ambulance": "104", "fire": "105",
+            "embassy_es": "+53 7 866 8025"
+        }
+    },
+    {
+        "name": "Dominica", "code": "DM", "flag": "🇩🇲", "region": "América del Norte",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "999", "fire": "999",
+            "embassy_uk": "+1 767 448 7655"
+        }
+    },
+    {
+        "name": "El Salvador", "code": "SV", "flag": "🇸🇻", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+503 2528 0200"
+        }
+    },
+    {
+        "name": "Estados Unidos", "code": "US", "flag": "🇺🇸", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+1 202 452 0100", "poison_control": "1-800-222-1222"
+        }
+    },
+    {
+        "name": "Granada", "code": "GD", "flag": "🇬🇩", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "434", "fire": "112",
+            "embassy_uk": "+1 473 440 3222"
+        }
+    },
+    {
+        "name": "Guatemala", "code": "GT", "flag": "🇬🇹", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "110", "ambulance": "123", "fire": "122",
+            "embassy_es": "+502 2379 3530"
+        }
+    },
+    {
+        "name": "Haití", "code": "HT", "flag": "🇭🇹", "region": "América del Norte",
+        "contacts": {
+            "emergency": "114", "police": "114", "ambulance": "116", "fire": "115",
+            "embassy_us": "+509 2229 8000"
+        }
+    },
+    {
+        "name": "Honduras", "code": "HN", "flag": "🇭🇳", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+504 2236 6900"
+        }
+    },
+    {
+        "name": "Jamaica", "code": "JM", "flag": "🇯🇲", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "119", "ambulance": "110", "fire": "110",
+            "embassy_us": "+1 876 702 6000"
+        }
+    },
+    {
+        "name": "México", "code": "MX", "flag": "🇲🇽", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+52 55 5520 0200", "tourist_help": "078"
+        }
+    },
+    {
+        "name": "Nicaragua", "code": "NI", "flag": "🇳🇮", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "118", "ambulance": "128", "fire": "115",
+            "embassy_es": "+505 2266 3660"
+        }
+    },
+    {
+        "name": "Panamá", "code": "PA", "flag": "🇵🇦", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+507 227 5122"
+        }
+    },
+    {
+        "name": "República Dominicana", "code": "DO", "flag": "🇩🇴", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_es": "+1 809 535 6500", "tourist_police": "200"
+        }
+    },
+    {
+        "name": "San Cristóbal y Nieves", "code": "KN", "flag": "🇰🇳", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "333",
+            "embassy_uk": "+1 869 465 2521"
+        }
+    },
+    {
+        "name": "Santa Lucía", "code": "LC", "flag": "🇱🇨", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "999", "ambulance": "911", "fire": "911",
+            "embassy_uk": "+1 758 452 2484"
+        }
+    },
+    {
+        "name": "San Vicente y las Granadinas", "code": "VC", "flag": "🇻🇨", "region": "América del Norte",
+        "contacts": {
+            "emergency": "911", "police": "999", "ambulance": "911", "fire": "911",
+            "embassy_uk": "+1 784 456 1762"
+        }
+    },
+    {
+        "name": "Trinidad y Tobago", "code": "TT", "flag": "🇹🇹", "region": "América del Norte",
+        "contacts": {
+            "emergency": "990", "police": "999", "ambulance": "990", "fire": "990",
+            "embassy_us": "+1 868 622 6371"
+        }
+    },
+    {
+        "name": "Argentina", "code": "AR", "flag": "🇦🇷", "region": "América del Sur",
+        "contacts": {
+            "emergency": "911", "police": "101", "ambulance": "107", "fire": "100",
+            "embassy_es": "+54 11 4809 4900"
+        }
+    },
+    {
+        "name": "Bolivia", "code": "BO", "flag": "🇧🇴", "region": "América del Sur",
+        "contacts": {
+            "emergency": "911", "police": "110", "ambulance": "118", "fire": "119",
+            "embassy_es": "+591 2 278 4444"
+        }
+    },
+    {
+        "name": "Brasil", "code": "BR", "flag": "🇧🇷", "region": "América del Sur",
+        "contacts": {
+            "emergency": "190", "police": "190", "ambulance": "192", "fire": "193",
+            "embassy_es": "+55 61 3701 1600", "civil_police": "197"
+        }
+    },
+    {
+        "name": "Chile", "code": "CL", "flag": "🇨🇱", "region": "América del Sur",
+        "contacts": {
+            "emergency": "133", "police": "133", "ambulance": "131", "fire": "132",
+            "embassy_es": "+56 2 2235 2755"
+        }
+    },
+    {
+        "name": "Colombia", "code": "CO", "flag": "🇨🇴", "region": "América del Sur",
+        "contacts": {
+            "emergency": "123", "police": "112", "ambulance": "125", "fire": "119",
+            "embassy_es": "+57 1 628 3910"
+        }
+    },
+    {
+        "name": "Ecuador", "code": "EC", "flag": "🇪🇨", "region": "América del Sur",
+        "contacts": {
+            "emergency": "911", "police": "101", "ambulance": "131", "fire": "102",
+            "embassy_es": "+593 2 256 4373"
+        }
+    },
+    {
+        "name": "Guyana", "code": "GY", "flag": "🇬🇾", "region": "América del Sur",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "913", "fire": "912",
+            "embassy_us": "+592 225 4900"
+        }
+    },
+    {
+        "name": "Paraguay", "code": "PY", "flag": "🇵🇾", "region": "América del Sur",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "141", "fire": "132",
+            "embassy_es": "+595 21 441 436"
+        }
+    },
+    {
+        "name": "Perú", "code": "PE", "flag": "🇵🇪", "region": "América del Sur",
+        "contacts": {
+            "emergency": "911", "police": "105", "ambulance": "106", "fire": "116",
+            "embassy_es": "+51 1 212 5155", "tourist_police": "0800-42579"
+        }
+    },
+    {
+        "name": "Surinam", "code": "SR", "flag": "🇸🇷", "region": "América del Sur",
+        "contacts": {
+            "emergency": "115", "police": "115", "ambulance": "113", "fire": "110",
+            "embassy_us": "+597 472 900"
+        }
+    },
+    {
+        "name": "Uruguay", "code": "UY", "flag": "🇺🇾", "region": "América del Sur",
+        "contacts": {
+            "emergency": "911", "police": "109", "ambulance": "105", "fire": "104",
+            "embassy_es": "+598 2 622 0770"
+        }
+    },
+    {
+        "name": "Venezuela", "code": "VE", "flag": "🇻🇪", "region": "América del Sur",
+        "contacts": {
+            "emergency": "911", "police": "171", "ambulance": "171", "fire": "171",
+            "embassy_es": "+58 212 263 2955"
+        }
+    },
+    {
+        "name": "Angola", "code": "AO", "flag": "🇦🇴", "region": "África",
+        "contacts": {
+            "emergency": "113", "police": "113", "ambulance": "112", "fire": "115",
+            "embassy_pt": "+244 222 334 582"
+        }
+    },
+    {
+        "name": "Argelia", "code": "DZ", "flag": "🇩🇿", "region": "África",
+        "contacts": {
+            "emergency": "14", "police": "17", "ambulance": "14", "fire": "14",
+            "embassy_es": "+213 21 69 23 52"
+        }
+    },
+    {
+        "name": "Benín", "code": "BJ", "flag": "🇧🇯", "region": "África",
+        "contacts": {
+            "emergency": "117", "police": "117", "ambulance": "112", "fire": "118",
+            "embassy_fr": "+229 21 30 25 94"
+        }
+    },
+    {
+        "name": "Botsuana", "code": "BW", "flag": "🇧🇼", "region": "África",
+        "contacts": {
+            "emergency": "911", "police": "999", "ambulance": "997", "fire": "998",
+            "embassy_us": "+267 395 3982"
+        }
+    },
+    {
+        "name": "Burkina Faso", "code": "BF", "flag": "🇧🇫", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_fr": "+226 25 30 67 76"
+        }
+    },
+    {
+        "name": "Burundi", "code": "BI", "flag": "🇧🇮", "region": "África",
+        "contacts": {
+            "emergency": "112", "police": "117", "ambulance": "112", "fire": "118",
+            "embassy_be": "+257 22 223 454"
+        }
+    },
+    {
+        "name": "Cabo Verde", "code": "CV", "flag": "🇨🇻", "region": "África",
+        "contacts": {
+            "emergency": "130", "police": "132", "ambulance": "130", "fire": "131",
+            "embassy_pt": "+238 260 8600"
+        }
+    },
+    {
+        "name": "Camerún", "code": "CM", "flag": "🇨🇲", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "18", "fire": "18",
+            "embassy_fr": "+237 222 794 00"
+        }
+    },
+    {
+        "name": "Chad", "code": "TD", "flag": "🇹🇩", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_fr": "+235 22 52 25 75"
+        }
+    },
+    {
+        "name": "Comoras", "code": "KM", "flag": "🇰🇲", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_fr": "+269 773 09 54"
+        }
+    },
+    {
+        "name": "Costa de Marfil", "code": "CI", "flag": "🇨🇮", "region": "África",
+        "contacts": {
+            "emergency": "185", "police": "170", "ambulance": "185", "fire": "180",
+            "embassy_fr": "+225 20 20 04 04"
+        }
+    },
+    {
+        "name": "Yibuti", "code": "DJ", "flag": "🇩🇯", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "351351", "fire": "18",
+            "embassy_fr": "+253 21 35 09 63"
+        }
+    },
+    {
+        "name": "Egipto", "code": "EG", "flag": "🇪🇬", "region": "África",
+        "contacts": {
+            "emergency": "112", "police": "122", "ambulance": "123", "fire": "180",
+            "embassy_es": "+20 2 2735 6437", "tourist_police": "126"
+        }
+    },
+    {
+        "name": "Eritrea", "code": "ER", "flag": "🇪🇷", "region": "África",
+        "contacts": {
+            "emergency": "114", "police": "127", "ambulance": "114", "fire": "116",
+            "embassy_it": "+291 1 120 160"
+        }
+    },
+    {
+        "name": "Etiopía", "code": "ET", "flag": "🇪🇹", "region": "África",
+        "contacts": {
+            "emergency": "911", "police": "991", "ambulance": "907", "fire": "939",
+            "embassy_us": "+251 11 130 6000"
+        }
+    },
+    {
+        "name": "Gabón", "code": "GA", "flag": "🇬🇦", "region": "África",
+        "contacts": {
+            "emergency": "1730", "police": "1730", "ambulance": "1300", "fire": "18",
+            "embassy_fr": "+241 01 76 40 15"
+        }
+    },
+    {
+        "name": "Gambia", "code": "GM", "flag": "🇬🇲", "region": "África",
+        "contacts": {
+            "emergency": "117", "police": "117", "ambulance": "116", "fire": "118",
+            "embassy_uk": "+220 449 5133"
+        }
+    },
+    {
+        "name": "Ghana", "code": "GH", "flag": "🇬🇭", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "191", "ambulance": "193", "fire": "192",
+            "embassy_us": "+233 30 274 1000"
+        }
+    },
+    {
+        "name": "Guinea", "code": "GN", "flag": "🇬🇳", "region": "África",
+        "contacts": {
+            "emergency": "442020", "police": "117", "ambulance": "442020", "fire": "442020",
+            "embassy_fr": "+224 621 24 65 71"
+        }
+    },
+    {
+        "name": "Guinea-Bisáu", "code": "GW", "flag": "🇬🇼", "region": "África",
+        "contacts": {
+            "emergency": "113", "police": "117", "ambulance": "119", "fire": "118",
+            "embassy_pt": "+245 320 3391"
+        }
+    },
+    {
+        "name": "Guinea Ecuatorial", "code": "GQ", "flag": "🇬🇶", "region": "África",
+        "contacts": {
+            "emergency": "115", "police": "114", "ambulance": "115", "fire": "112",
+            "embassy_es": "+240 333 093 540"
+        }
+    },
+    {
+        "name": "Kenia", "code": "KE", "flag": "🇰🇪", "region": "África",
+        "contacts": {
+            "emergency": "112", "police": "999", "ambulance": "999", "fire": "999",
+            "embassy_us": "+254 20 363 6000"
+        }
+    },
+    {
+        "name": "Lesoto", "code": "LS", "flag": "🇱🇸", "region": "África",
+        "contacts": {
+            "emergency": "911", "police": "123", "ambulance": "121", "fire": "122",
+            "embassy_za": "+266 2231 3726"
+        }
+    },
+    {
+        "name": "Liberia", "code": "LR", "flag": "🇱🇷", "region": "África",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_us": "+231 77 677 7000"
+        }
+    },
+    {
+        "name": "Libia", "code": "LY", "flag": "🇱🇾", "region": "África",
+        "contacts": {
+            "emergency": "193", "police": "1515", "ambulance": "193", "fire": "180",
+            "embassy_it": "+218 21 333 1881"
+        }
+    },
+    {
+        "name": "Madagascar", "code": "MG", "flag": "🇲🇬", "region": "África",
+        "contacts": {
+            "emergency": "117", "police": "117", "ambulance": "124", "fire": "118",
+            "embassy_fr": "+261 20 22 398 98"
+        }
+    },
+    {
+        "name": "Malaui", "code": "MW", "flag": "🇲🇼", "region": "África",
+        "contacts": {
+            "emergency": "199", "police": "997", "ambulance": "998", "fire": "999",
+            "embassy_us": "+265 1 773 166"
+        }
+    },
+    {
+        "name": "Malí", "code": "ML", "flag": "🇲🇱", "region": "África",
+        "contacts": {
+            "emergency": "15", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_fr": "+223 20 70 42 32"
+        }
+    },
+    {
+        "name": "Marruecos", "code": "MA", "flag": "🇲🇦", "region": "África",
+        "contacts": {
+            "emergency": "190", "police": "19", "ambulance": "15", "fire": "15",
+            "embassy_es": "+212 537 63 39 00", "tourist_police": "177"
+        }
+    },
+    {
+        "name": "Mauricio", "code": "MU", "flag": "🇲🇺", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "114", "fire": "995",
+            "embassy_uk": "+230 202 9400"
+        }
+    },
+    {
+        "name": "Mauritania", "code": "MR", "flag": "🇲🇷", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "101", "fire": "18",
+            "embassy_fr": "+222 45 25 27 24"
+        }
+    },
+    {
+        "name": "Mozambique", "code": "MZ", "flag": "🇲🇿", "region": "África",
+        "contacts": {
+            "emergency": "117", "police": "119", "ambulance": "117", "fire": "198",
+            "embassy_pt": "+258 21 490 316"
+        }
+    },
+    {
+        "name": "Namibia", "code": "NA", "flag": "🇳🇦", "region": "África",
+        "contacts": {
+            "emergency": "10111", "police": "10111", "ambulance": "2032276", "fire": "2032270",
+            "embassy_za": "+264 61 205 7111"
+        }
+    },
+    {
+        "name": "Níger", "code": "NE", "flag": "🇳🇪", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_fr": "+227 20 72 26 61"
+        }
+    },
+    {
+        "name": "Nigeria", "code": "NG", "flag": "🇳🇬", "region": "África",
+        "contacts": {
+            "emergency": "112", "police": "199", "ambulance": "199", "fire": "199",
+            "embassy_us": "+234 9 461 4000"
+        }
+    },
+    {
+        "name": "República Centroafricana", "code": "CF", "flag": "🇨🇫", "region": "África",
+        "contacts": {
+            "emergency": "117", "police": "117", "ambulance": "1220", "fire": "118",
+            "embassy_fr": "+236 21 61 30 00"
+        }
+    },
+    {
+        "name": "República del Congo", "code": "CG", "flag": "🇨🇬", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_fr": "+242 22 281 15 70"
+        }
+    },
+    {
+        "name": "República Democrática del Congo", "code": "CD", "flag": "🇨🇩", "region": "África",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "999", "fire": "18",
+            "embassy_be": "+243 81 555 6737"
+        }
+    },
+    {
+        "name": "Ruanda", "code": "RW", "flag": "🇷🇼", "region": "África",
+        "contacts": {
+            "emergency": "112", "police": "113", "ambulance": "912", "fire": "111",
+            "embassy_us": "+250 252 596 400"
+        }
+    },
+    {
+        "name": "Santo Tomé y Príncipe", "code": "ST", "flag": "🇸🇹", "region": "África",
+        "contacts": {
+            "emergency": "112", "police": "222224", "ambulance": "112", "fire": "112",
+            "embassy_pt": "+239 22 21 616"
+        }
+    },
+    {
+        "name": "Senegal", "code": "SN", "flag": "🇸🇳", "region": "África",
+        "contacts": {
+            "emergency": "17", "police": "17", "ambulance": "15", "fire": "18",
+            "embassy_fr": "+221 33 839 51 00"
+        }
+    },
+    {
+        "name": "Seychelles", "code": "SC", "flag": "🇸🇨", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "999", "fire": "999",
+            "embassy_uk": "+248 428 3666"
+        }
+    },
+    {
+        "name": "Sierra Leona", "code": "SL", "flag": "🇸🇱", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "019", "ambulance": "999", "fire": "999",
+            "embassy_uk": "+232 76 515 021"
+        }
+    },
+    {
+        "name": "Somalia", "code": "SO", "flag": "🇸🇴", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "888", "ambulance": "999", "fire": "555",
+            "embassy_et": "+251 11 551 0033"
+        }
+    },
+    {
+        "name": "Sudáfrica", "code": "ZA", "flag": "🇿🇦", "region": "África",
+        "contacts": {
+            "emergency": "10111", "police": "10111", "ambulance": "10177", "fire": "10177",
+            "embassy_es": "+27 12 460 0123"
+        }
+    },
+    {
+        "name": "Sudán", "code": "SD", "flag": "🇸🇩", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "999", "fire": "998",
+            "embassy_eg": "+249 183 471 661"
+        }
+    },
+    {
+        "name": "Sudán del Sur", "code": "SS", "flag": "🇸🇸", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "777", "ambulance": "997", "fire": "998",
+            "embassy_ug": "+211 922 406 049"
+        }
+    },
+    {
+        "name": "Suazilandia", "code": "SZ", "flag": "🇸🇿", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "977", "fire": "933",
+            "embassy_za": "+268 2404 2445"
+        }
+    },
+    {
+        "name": "Tanzania", "code": "TZ", "flag": "🇹🇿", "region": "África",
+        "contacts": {
+            "emergency": "112", "police": "112", "ambulance": "114", "fire": "115",
+            "embassy_us": "+255 22 229 4000"
+        }
+    },
+    {
+        "name": "Togo", "code": "TG", "flag": "🇹🇬", "region": "África",
+        "contacts": {
+            "emergency": "117", "police": "117", "ambulance": "8200", "fire": "118",
+            "embassy_fr": "+228 22 23 46 30"
+        }
+    },
+    {
+        "name": "Túnez", "code": "TN", "flag": "🇹🇳", "region": "África",
+        "contacts": {
+            "emergency": "190", "police": "197", "ambulance": "190", "fire": "198",
+            "embassy_es": "+216 71 782 217", "tourist_police": "1548"
+        }
+    },
+    {
+        "name": "Uganda", "code": "UG", "flag": "🇺🇬", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "911", "fire": "999",
+            "embassy_us": "+256 312 306 001"
+        }
+    },
+    {
+        "name": "Zambia", "code": "ZM", "flag": "🇿🇲", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "991", "ambulance": "992", "fire": "993",
+            "embassy_us": "+260 211 357 000"
+        }
+    },
+    {
+        "name": "Zimbabue", "code": "ZW", "flag": "🇿🇼", "region": "África",
+        "contacts": {
+            "emergency": "999", "police": "995", "ambulance": "994", "fire": "993",
+            "embassy_za": "+263 4 753 147"
+        }
+    },
+    {
+        "name": "Australia", "code": "AU", "flag": "🇦🇺", "region": "Oceanía",
+        "contacts": {
+            "emergency": "000", "police": "000", "ambulance": "000", "fire": "000",
+            "embassy_es": "+61 2 6273 3555", "police_non_emergency": "131 444"
+        }
+    },
+    {
+        "name": "Fiyi", "code": "FJ", "flag": "🇫🇯", "region": "Oceanía",
+        "contacts": {
+            "emergency": "911", "police": "917", "ambulance": "911", "fire": "910",
+            "embassy_au": "+679 338 2211"
+        }
+    },
+    {
+        "name": "Islas Marshall", "code": "MH", "flag": "🇲🇭", "region": "Oceanía",
+        "contacts": {
+            "emergency": "911", "police": "625-8666", "ambulance": "911", "fire": "625-4444",
+            "embassy_us": "+692 247 4011"
+        }
+    },
+    {
+        "name": "Islas Salomón", "code": "SB", "flag": "🇸🇧", "region": "Oceanía",
+        "contacts": {
+            "emergency": "911", "police": "999", "ambulance": "911", "fire": "999",
+            "embassy_au": "+677 21561"
+        }
+    },
+    {
+        "name": "Kiribati", "code": "KI", "flag": "🇰🇮", "region": "Oceanía",
+        "contacts": {
+            "emergency": "999", "police": "999", "ambulance": "994", "fire": "998",
+            "embassy_au": "+686 21184"
+        }
+    },
+    {
+        "name": "Micronesia", "code": "FM", "flag": "🇫🇲", "region": "Oceanía",
+        "contacts": {
+            "emergency": "911", "police": "320-2221", "ambulance": "911", "fire": "320-2223",
+            "embassy_us": "+691 320 2187"
+        }
+    },
+    {
+        "name": "Nauru", "code": "NR", "flag": "🇳🇷", "region": "Oceanía",
+        "contacts": {
+            "emergency": "110", "police": "110", "ambulance": "111", "fire": "112",
+            "embassy_au": "+674 444 3133"
+        }
+    },
+    {
+        "name": "Nueva Zelanda", "code": "NZ", "flag": "🇳🇿", "region": "Oceanía",
+        "contacts": {
+            "emergency": "111", "police": "111", "ambulance": "111", "fire": "111",
+            "embassy_es": "+64 4 802 5665", "police_non_emergency": "105"
+        }
+    },
+    {
+        "name": "Palaos", "code": "PW", "flag": "🇵🇼", "region": "Oceanía",
+        "contacts": {
+            "emergency": "911", "police": "911", "ambulance": "911", "fire": "911",
+            "embassy_us": "+680 587 2920"
+        }
+    },
+    {
+        "name": "Papúa Nueva Guinea", "code": "PG", "flag": "🇵🇬", "region": "Oceanía",
+        "contacts": {
+            "emergency": "111", "police": "000", "ambulance": "111", "fire": "110",
+            "embassy_au": "+675 321 3611"
+        }
+    },
+    {
+        "name": "Samoa", "code": "WS", "flag": "🇼🇸", "region": "Oceanía",
+        "contacts": {
+            "emergency": "999", "police": "995", "ambulance": "996", "fire": "994",
+            "embassy_nz": "+685 21711"
+        }
+    },
+    {
+        "name": "Tonga", "code": "TO", "flag": "🇹🇴", "region": "Oceanía",
+        "contacts": {
+            "emergency": "911", "police": "922", "ambulance": "933", "fire": "999",
+            "embassy_au": "+676 23244"
+        }
+    },
+    {
+        "name": "Tuvalu", "code": "TV", "flag": "🇹🇻", "region": "Oceanía",
+        "contacts": {
+            "emergency": "911", "police": "20726", "ambulance": "911", "fire": "20726",
+            "embassy_au": "+688 20125"
+        }
+    },
+    {
+        "name": "Vanuatu", "code": "VU", "flag": "🇻🇺", "region": "Oceanía",
+        "contacts": {
+            "emergency": "112", "police": "22222", "ambulance": "112", "fire": "22333",
+            "embassy_au": "+678 22777"
+        }
+    }
+]
