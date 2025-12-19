@@ -1,3 +1,4 @@
+
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { Country, GroupedCountries } from './types';
 import { SearchBar } from './components/SearchBar';
@@ -7,6 +8,7 @@ import { ThemeToggle } from './components/ThemeToggle';
 const App: React.FC = () => {
   const [allCountries, setAllCountries] = useState<Country[]>([]);
   const [status, setStatus] = useState<'loading' | 'error' | 'success'>('loading');
+  const [dataSource, setDataSource] = useState<'api' | 'local' | null>(null);
   
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -19,16 +21,40 @@ const App: React.FC = () => {
 
   const fetchCountries = useCallback(async () => {
     setStatus('loading');
+    
+    // Intento 1: Conectar con el Backend real (API en puerto 3001)
     try {
-      const response = await fetch('http://localhost:3001/api/countries');
+      // Usamos un timeout corto para no hacer esperar al usuario si el servidor no existe
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 2000);
+
+      const response = await fetch('http://localhost:3001/api/countries', { signal: controller.signal });
+      clearTimeout(timeoutId);
+
+      if (response.ok) {
+        const data = await response.json();
+        setAllCountries(data);
+        setDataSource('api');
+        setStatus('success');
+        return;
+      }
+    } catch (apiError) {
+      console.warn("Backend no detectado en localhost:3001. Activando modo de datos locales (Fallback).");
+    }
+
+    // Intento 2: Cargar desde el archivo local (Fallback)
+    // Esto asegura que la app funcione incluso si el backend no está iniciado
+    try {
+      const response = await fetch('/countries.json');
       if (!response.ok) {
-        throw new Error(`Network response was not ok: ${response.statusText}`);
+        throw new Error(`Fallback local falló: ${response.statusText}`);
       }
       const data = await response.json();
       setAllCountries(data);
+      setDataSource('local');
       setStatus('success');
     } catch (error) {
-      console.error("Failed to fetch countries:", error);
+      console.error("Error crítico: No se pudieron cargar los datos de ninguna fuente.", error);
       setStatus('error');
     }
   }, []);
@@ -89,7 +115,7 @@ const App: React.FC = () => {
       return (
         <div className="text-center py-20 px-4 flex flex-col items-center justify-center">
             <div className="w-16 h-16 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
-            <p className="mt-4 text-slate-500 dark:text-slate-400 font-medium">Cargando datos de países...</p>
+            <p className="mt-4 text-slate-500 dark:text-slate-400 font-medium">Cargando directorio global...</p>
         </div>
       );
     }
@@ -99,11 +125,11 @@ const App: React.FC = () => {
         <div className="text-center py-20 px-4">
             <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm inline-block max-w-md mx-auto">
                 <div className="text-6xl mb-4 text-red-500">
-                    <i className="fas fa-plug-circle-xmark"></i>
+                    <i className="fas fa-database"></i>
                 </div>
-                <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-2">Error de Conexión al Backend</h2>
+                <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-2">Error de Datos</h2>
                 <p className="text-slate-500 dark:text-slate-400">
-                  No pudimos conectar con el servidor. Asegúrate de que el backend (`node server.js`) esté corriendo.
+                  No pudimos cargar los números de emergencia. Por favor, verifica tu conexión o el archivo countries.json.
                 </p>
                 <button 
                     onClick={fetchCountries}
@@ -122,15 +148,15 @@ const App: React.FC = () => {
             <div className="text-center py-20 px-4">
                 <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm inline-block max-w-md mx-auto">
                     <div className="text-6xl mb-4">🗺️</div>
-                    <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-2">No se encontraron países</h2>
+                    <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-2">Sin resultados</h2>
                     <p className="text-slate-500 dark:text-slate-400">
-                      Intenta buscar por el nombre del país en español o su código internacional (ej. "ES", "US").
+                      No encontramos nada para "{searchQuery}". Prueba con otro país o región.
                     </p>
                     <button 
                         onClick={() => setSearchQuery('')}
                         className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors font-medium"
                     >
-                        Ver todos los países
+                        Ver todos
                     </button>
                 </div>
             </div>
@@ -139,6 +165,19 @@ const App: React.FC = () => {
 
     return (
         <div className="space-y-8">
+            {/* Aviso discreto si estamos usando datos locales en lugar del API */}
+            {dataSource === 'local' && (
+              <div className="bg-blue-50 dark:bg-slate-800/50 border border-blue-100 dark:border-slate-700 p-3 rounded-xl flex items-center justify-between mb-4">
+                <p className="text-xs text-blue-700 dark:text-slate-400 flex items-center">
+                  <i className="fas fa-info-circle mr-2"></i>
+                  Datos cargados desde el archivo local (Backend desconectado).
+                </p>
+                <span className="text-[10px] font-bold uppercase bg-blue-100 dark:bg-slate-700 text-blue-600 dark:text-slate-300 px-2 py-0.5 rounded">
+                  Modo Local
+                </span>
+              </div>
+            )}
+
             {sortedRegions.map((region) => (
               <section key={region} className="relative">
                 <div className="sticky top-[160px] md:top-[164px] z-40 py-3 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur-sm border-b border-slate-200 dark:border-slate-700 mb-6">
@@ -184,7 +223,7 @@ const App: React.FC = () => {
             </div>
           <p className="text-slate-500 dark:text-slate-400 text-sm">
             <i className="fas fa-exclamation-circle text-amber-500 mr-2"></i>
-            Importante: Verifica siempre los números locales al llegar a tu destino. Esta información es orientativa.
+            Información orientativa. Verifica siempre los números locales al llegar a tu destino.
           </p>
           <p className="text-slate-400 dark:text-slate-500 text-xs mt-4">
             &copy; {new Date().getFullYear()} Global Emergency Contacts.
