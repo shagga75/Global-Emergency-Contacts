@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { Country, GroupedCountries } from './types';
 import { SearchBar } from './components/SearchBar';
@@ -22,13 +21,14 @@ const App: React.FC = () => {
   const fetchCountries = useCallback(async () => {
     setStatus('loading');
     
-    // Intento 1: Conectar con el Backend real (API en puerto 3001)
+    // Usamos una ruta relativa para que funcione en Vercel y Local
+    // Intento 1: Conectar con el Backend (API)
     try {
-      // Usamos un timeout corto para no hacer esperar al usuario si el servidor no existe
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 2000);
+      const timeoutId = setTimeout(() => controller.abort(), 3000);
 
-      const response = await fetch('http://localhost:3001/api/countries', { signal: controller.signal });
+      // Cambiado de localhost:3001 a ruta relativa /api/countries
+      const response = await fetch('/api/countries', { signal: controller.signal });
       clearTimeout(timeoutId);
 
       if (response.ok) {
@@ -39,11 +39,10 @@ const App: React.FC = () => {
         return;
       }
     } catch (apiError) {
-      console.warn("Backend no detectado en localhost:3001. Activando modo de datos locales (Fallback).");
+      console.warn("API no disponible, intentando carga local directa.");
     }
 
-    // Intento 2: Cargar desde el archivo local (Fallback)
-    // Esto asegura que la app funcione incluso si el backend no está iniciado
+    // Intento 2: Fallback directo al JSON (por si acaso el servidor falla pero el archivo está ahí)
     try {
       const response = await fetch('/countries.json');
       if (!response.ok) {
@@ -54,7 +53,7 @@ const App: React.FC = () => {
       setDataSource('local');
       setStatus('success');
     } catch (error) {
-      console.error("Error crítico: No se pudieron cargar los datos de ninguna fuente.", error);
+      console.error("Error crítico de carga:", error);
       setStatus('error');
     }
   }, []);
@@ -129,7 +128,7 @@ const App: React.FC = () => {
                 </div>
                 <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-2">Error de Datos</h2>
                 <p className="text-slate-500 dark:text-slate-400">
-                  No pudimos cargar los números de emergencia. Por favor, verifica tu conexión o el archivo countries.json.
+                  No pudimos cargar los números de emergencia.
                 </p>
                 <button 
                     onClick={fetchCountries}
@@ -150,7 +149,7 @@ const App: React.FC = () => {
                     <div className="text-6xl mb-4">🗺️</div>
                     <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-2">Sin resultados</h2>
                     <p className="text-slate-500 dark:text-slate-400">
-                      No encontramos nada para "{searchQuery}". Prueba con otro país o región.
+                      No encontramos nada para "{searchQuery}".
                     </p>
                     <button 
                         onClick={() => setSearchQuery('')}
@@ -165,19 +164,6 @@ const App: React.FC = () => {
 
     return (
         <div className="space-y-8">
-            {/* Aviso discreto si estamos usando datos locales en lugar del API */}
-            {dataSource === 'local' && (
-              <div className="bg-blue-50 dark:bg-slate-800/50 border border-blue-100 dark:border-slate-700 p-3 rounded-xl flex items-center justify-between mb-4">
-                <p className="text-xs text-blue-700 dark:text-slate-400 flex items-center">
-                  <i className="fas fa-info-circle mr-2"></i>
-                  Datos cargados desde el archivo local (Backend desconectado).
-                </p>
-                <span className="text-[10px] font-bold uppercase bg-blue-100 dark:bg-slate-700 text-blue-600 dark:text-slate-300 px-2 py-0.5 rounded">
-                  Modo Local
-                </span>
-              </div>
-            )}
-
             {sortedRegions.map((region) => (
               <section key={region} className="relative">
                 <div className="sticky top-[160px] md:top-[164px] z-40 py-3 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur-sm border-b border-slate-200 dark:border-slate-700 mb-6">
